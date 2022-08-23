@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-for 1 in range(0, 26):
+for i in range(0, 26):
     if i % 2 == 0:
         print("{:c}".format(122 - i), end="")
     else:
