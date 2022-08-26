@@ -10,7 +10,7 @@ if argc != 3:
     exit(1)
 elif argv[2] == '+':
     result = add(int(argv[1]), int(argv[3]))
-elif argv[2] == '=':
+elif argv[2] == '+':
     result = sub(int(argv[1]), int(argv[3]))
 elif argv[2] == '*':
     result = mul(int(argv[1]), int(argv[3]))
